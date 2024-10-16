@@ -14,7 +14,9 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: [],
+  remotes: [
+    ['reactNewViteRemote', 'reactNewViteRemote@http://localhost:4173/remoteReactNewViteEntry.js'],
+  ],
 };
 
 export default config;
