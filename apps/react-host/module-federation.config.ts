@@ -1,5 +1,6 @@
 import { ModuleFederationConfig } from '@nx/webpack';
 
+
 const config: ModuleFederationConfig = {
   name: 'react-host',
   /**
@@ -15,7 +16,7 @@ const config: ModuleFederationConfig = {
    *
    */
   remotes: [
-    ['reactNewViteRemote', 'reactNewViteRemote@http://localhost:4173/remoteReactNewViteEntry.js'],
+    ['reactNewViteRemote', 'reactNewViteRemote@http://localhost:4173/assets/remoteReactViteManifest.json'],
   ],
 };
 
