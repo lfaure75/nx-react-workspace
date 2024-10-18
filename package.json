@@ -13,7 +13,7 @@
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@eslint/js": "^9.8.0",
-    "@module-federation/enhanced": "0.6.6",
+    "@module-federation/enhanced": "0.6.11",
     "@nx/eslint": "20.0.1",
     "@nx/eslint-plugin": "20.0.1",
     "@nx/jest": "20.0.1",
@@ -51,5 +51,8 @@
     "typescript": "~5.5.2",
     "typescript-eslint": "^8.0.0",
     "webpack-cli": "^5.1.4"
+  },
+  "resolutions": {
+    "@module-federation/enhanced": "0.6.11"
   }
 }
